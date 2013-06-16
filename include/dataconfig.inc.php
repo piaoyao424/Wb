@@ -1,0 +1,10 @@
+<?php
+//数据库配置
+$db_type='2';
+$db_host='localhost';
+$db_name='root';
+$db_pass='000111';
+$db_table='test';
+$db_ut='utf8';
+$db_tablepre='zcn_';
+?>

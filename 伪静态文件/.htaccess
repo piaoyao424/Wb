@@ -1,0 +1,26 @@
+RewriteEngine on
+
+
+RewriteRule ^articles-list-classid-([0-9]+).htm ?c=articles&a=list&classid=$1
+RewriteRule ^articles-list-classid-([0-9]+)-page-([0-9]+).htm ?page=$2&c=articles&a=list&classid=$1
+RewriteRule ^articles-show-id-([0-9]+).htm ?c=articles&a=show&id=$1
+
+RewriteRule ^articles-list-filename-([^/]+).htm ?c=articles&a=list&filename=$1
+RewriteRule ^articles-list-filename-([^/]+)-page-([0-9]+).htm ?page=$2&c=articles&a=list&filename=$1
+RewriteRule ^articles-show-filename-([^/]+).htm ?c=articles&a=show&filename=$1
+
+RewriteRule ^products-list-classid-([0-9]+).htm ?c=products&a=list&classid=$1
+RewriteRule ^products-list-classid-([0-9]+)-page-([0-9]+).htm ?page=$2&c=products&a=list&classid=$1
+RewriteRule ^products-show-id-([0-9]+).htm ?c=products&a=show&id=$1
+
+RewriteRule ^products-list-filename-([^/]+).htm ?c=products&a=list&filename=$1
+RewriteRule ^products-list-filename-([^/]+)-page-([0-9]+).htm ?page=$2&c=products&a=list&filename=$1
+RewriteRule ^products-show-filename-([^/]+).htm ?c=products&a=show&filename=$1
+
+RewriteRule ^downloads-list-classid-([0-9]+).htm ?c=downloads&a=list&classid=$1
+RewriteRule ^downloads-list-classid-([0-9]+)-page-([0-9]+).htm ?page=$2&c=downloads&a=list&classid=$1
+RewriteRule ^downloads-show-id-([0-9]+).htm ?c=downloads&a=show&id=$1
+
+RewriteRule ^downloads-list-filename-([^/]+).htm ?c=downloads&a=list&filename=$1
+RewriteRule ^downloads-list-filename-([^/]+)-page-([0-9]+).htm ?page=$2&c=downloads&a=list&filename=$1
+RewriteRule ^downloads-show-filename-([^/]+).htm ?c=downloads&a=show&filename=$1
